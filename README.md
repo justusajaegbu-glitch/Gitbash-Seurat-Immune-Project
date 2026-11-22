@@ -85,7 +85,6 @@ Gitbash-Seurat-Immune-Project/
 ├── scripts/
 │   ├── run_alignment.R
 │   ├── run_full_pipeline.sh
-│   └── report.html
 ├── data/                             # input matrices (not tracked)
 └── output/
     ├── umap_celltypes, umap_split, immune_alignment_umap
