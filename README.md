@@ -7,9 +7,9 @@ Aligning control and interferon-beta-stimulated PBMCs to find which cell types r
 **Question:** Once control and stimulated PBMCs are aligned, do interferon-response genes (ISG15, IFI6, MX1, IFIT3, CXCL10) rise in every immune cell type, or are some responses specific to particular cell types?
 
 **What I tested:**
-i. Can the two conditions be integrated so that cells group by type and not by treatment?
-ii. Which genes mark each cell type in both conditions (conserved markers)?
-iii. Which genes change with stimulation within a cell type (CD4 naive T, CD14 monocytes, B cells)?
+(i) Can the two conditions be integrated so that cells group by type and not by treatment?
+(ii) Which genes mark each cell type in both conditions (conserved markers)?
+(iii) Which genes change with stimulation within a cell type (CD4 naive T, CD14 monocytes, B cells)?
 
 ## 2. Dataset
 
@@ -28,6 +28,8 @@ R, Seurat (log-normalisation, anchor-based integration, PCA, UMAP, clustering, d
 5. **Annotate:** assign cell types from canonical markers.
 6. **Conserved markers:** find genes that mark a cluster in both conditions.
 7. **Stimulation response:** compare STIM vs CTRL within cell types.
+   <img width="1190" height="586" alt="image" src="https://github.com/user-attachments/assets/fc1c1263-f4ac-4dd9-83c6-f00f8968f307" />
+
 
 ## 5. QC and integration results
 
