@@ -79,7 +79,6 @@ bash scripts/run_full_pipeline.sh
 
 Place the two input matrices in data/. Outputs are written to output/, and sessionInfo() is saved with the results to record package versions.
 
-```
 Gitbash-Seurat-Immune-Project/
 ├── README.md
 ├── .gitignore                        # *.rds, data/*.gz, .RData, .Rhistory
